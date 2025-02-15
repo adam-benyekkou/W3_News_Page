@@ -12,98 +12,97 @@
 /* Fonts */
 
 @font-face {
-    font-family: "Inter Regular";
-    src: url("../assets/fonts/static/Inter-Regular.woff2") format("woff2"),
-         url("../assets/fonts/static/Inter-Regular.woff") format("woff"),
-         url("../assets/fonts/static/Inter-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Inter Bold";
-    src: url("../assets/fonts/static/Inter-Bold.woff2") format("woff2"),
-         url("../assets/fonts/static/Inter-Bold.woff") format("woff"),
-         url("../assets/fonts/static/Inter-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Inter Extra Bold";
-    src: url("../assets/fonts/static/Inter-ExtraBold.woff2") format("woff2"),
-         url("../assets/fonts/static/Inter-ExtraBold.woff") format("woff"),
-         url("../assets/fonts/static/Inter-ExtraBold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-  }
+  font-family: "Inter Regular";
+  src: url("../assets/fonts/static/Inter-Regular.woff2") format("woff2"),
+    url("../assets/fonts/static/Inter-Regular.woff") format("woff"),
+    url("../assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  .body {
-    font-size: 15px;
-    font-family: "Inter Regular";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--off-white);
-  }
-  
-  .content_container {
-    margin: 5vh 25vh;
-    max-width: 1080px;
-    min-width: 800px;
-  }
-  
-  
-  /* Header part */
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5% 0;
-  }
-  
-  .header_logo {
-    width: 3rem;
-    height: 2rem;
-  }
-  
-  .header_nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 2rem;
-  }
+@font-face {
+  font-family: "Inter Bold";
+  src: url("../assets/fonts/static/Inter-Bold.woff2") format("woff2"),
+    url("../assets/fonts/static/Inter-Bold.woff") format("woff"),
+    url("../assets/fonts/static/Inter-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
-  .header_nav_link{
-    color: var(--dark-grayish-blue);
-    text-decoration: none;
-  }
-  
-  /* Main part */
-  
-  .main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-  }
-  
-  .section_main_news{
+@font-face {
+  font-family: "Inter Extra Bold";
+  src: url("../assets/fonts/static/Inter-ExtraBold.woff2") format("woff2"),
+    url("../assets/fonts/static/Inter-ExtraBold.woff") format("woff"),
+    url("../assets/fonts/static/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.body {
+  font-size: 15px;
+  font-family: "Inter Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--off-white);
+}
+
+.content_container {
+  margin: 5vh 25vh;
+  max-width: 1080px;
+  min-width: 800px;
+}
+
+/* Header part */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.header_logo {
+  width: 3rem;
+  height: 2rem;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header_nav_link {
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
+}
+
+/* Main part */
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.section_main_news {
   width: 70%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  }
+}
 
-  .section_main_news_img{
-    height: 60%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../assets/images/image-web-3-desktop.jpg");
-  }
+.section_main_news_img {
+  height: 60%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/images/image-web-3-desktop.jpg");
+}
 
-.main_article{
+.main_article {
   margin-top: 3%;
   display: flex;
   justify-content: space-evenly;
@@ -111,32 +110,31 @@
   flex-wrap: wrap;
 }
 
-.main_title_container{
- width: 50%;
- display: flex;
-justify-content: start;
+.main_title_container {
+  width: 50%;
+  display: flex;
+  justify-content: start;
 }
 
- .main_title{
-font-size: 3.5em;
-font-family: "Inter Extra Bold";
-text-align: left;
-line-height: 1;
+.main_title {
+  font-size: 3.5em;
+  font-family: "Inter Extra Bold";
+  text-align: left;
+  line-height: 1;
 }
 
-.main_text{
+.main_text {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-
 }
 
-.main_p{
+.main_p {
   color: var(--dark-grayish-blue);
 }
-.main_btn{
+.main_btn {
   color: var(--very-dark-blue);
   background-color: var(--soft-red);
   padding: 0.5rem 1rem;
@@ -148,7 +146,6 @@ line-height: 1;
   border: none;
   border-radius: 2px;
   margin-top: 2rem;
-  
 }
 
 .aside_news {
@@ -161,26 +158,27 @@ line-height: 1;
   width: 27%;
   padding: 2rem 1.5rem;
   gap: 2rem;
-  
 }
 
-.aside_news_title {font-size: 2rem;
+.aside_news_title {
+  font-size: 2rem;
   font-family: "Inter Bold";
-  color: var(--soft-orange );
-margin-bottom: 0.5rem; }
-  
-
-.aside_news_article_title{
-    font-size: 1.érem;
-    font-family: "Inter Bold";
-    color: var(--off-white);
+  color: var(--soft-orange);
+  margin-bottom: 0.5rem;
 }
-    
-.aside_news_article_p{
-    color: var(--grayish-blue);
-    text-align: left;
-    line-height: 1rem;
-    width: 80%;
+
+.aside_news_article_title {
+  font-size: 1.2rem;
+  font-family: "Inter Bold";
+  color: var(--off-white);
+  text-decoration: none;
+}
+
+.aside_news_article_p {
+  color: var(--grayish-blue);
+  text-align: left;
+  line-height: 1rem;
+  width: 80%;
 }
 
 .section_list_news {
@@ -193,31 +191,50 @@ margin-bottom: 0.5rem; }
   margin-top: 2rem;
 }
 
-.section_list_news_article{
+.section_list_news_article {
   display: flex;
   flex-direction: row;
-  
-  
-
 }
 
-.section_list_news_article_title{
-    font-size: 2rem;
-    font-family: "Inter Extra Bold";
-    color: var(--soft-red);
+.section_list_news_text {
+  min-width: 15rem;
 }
 
-.section_list_news_article_subtitle{
-    font-family: "Inter Extra Bold";
-    color: var(--very-dark-blue);
+.section_list_news_article_title {
+  font-size: 2rem;
+  font-family: "Inter Extra Bold";
+  color: var(--soft-red);
 }
 
-.section_list_news_article_p{
- color: var(--dark-grayish-blue);
+.section_list_news_article_subtitle {
+  font-family: "Inter Extra Bold";
+  font-size: 1.1rem;
+  color: var(--very-dark-blue);
+  text-decoration: none;
 }
 
-.section_list_news_article_img{
+.section_list_news_article_p {
+  color: var(--dark-grayish-blue);
+}
+
+.section_list_news_article_img {
   width: 8rem;
   height: 8rem;
   margin-right: 1rem;
+}
+
+/* active states */
+
+.header_nav_link:hover,
+.section_list_news_article_subtitle:hover {
+  color: var(--soft-red);
+}
+
+.aside_news_article_title:hover {
+  color: var(--soft-orange);
+}
+
+.main_btn:hover{
+  color: var(--off-white);
+  background-color: var(--very-dark-blue);
 }
